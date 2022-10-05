@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEBCAM</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+        </ul>
+    </nav>
+    <div style="text-align: center;">
+    <h1>GRABAR VIDEO...</h1>
+    <div>
+        <label for="dispositivosDeAudio">Mic:</label><br>
+        <select name="dispositivosDeAudio" id="dispositivosDeAudio"></select>
+        <br><br>
+        <label for="dispositivosDeVideo">Cam:</label><br>
+        <select name="dispositivosDeVideo" id="dispositivosDeVideo"></select>
+        <br><br>
+        <video muted="muted" id="video"></video>
+        <br><br>
+        <p id="duracion"></p>
+        <br>
+        <button id="btnComenzarGrabacion">GRABAR</button>
+        <button id="btnDetenerGrabacion">PARAR</button>
+    </div>
+    </div>
+    <script src="mainjiji.js"></script>
+</body>
+
+</html>
